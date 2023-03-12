@@ -1,0 +1,294 @@
+ /* #box {
+    border: 5px solid red;
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    box-sizing: border-box;
+    /* box-sizing: content-box, or border-b0x  */
+    /*box-shadow: x y blur {inset} color*/
+    /* margin: 30px;
+    outline: 5px solid black;
+    outline-offset: -20px;
+
+}  */ 
+
+/* #box{
+    border: 10px solid rgb(0, 0, 8);
+    display: inline-block;
+    position: relative;
+    top: 30px;
+    left: 30px;
+    width: 300px;
+    height: 300px;
+}
+.second-box {
+    display: flex;
+    background-color:rgb(0, 0, 8);
+    justify-content: center;
+    position: absolute;
+    
+    top: 0;
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    align-items: center;
+    right: 0;
+} */
+/* body {
+    margin: 0;
+    padding: 0;
+    background-color:aquamarine;
+
+    
+}
+#box {
+    background-color: #f5f5f5;
+    border-bottom:2px solid #878686;
+    padding: 30px;
+    position: sticky;
+    top: 0;
+    color: red;
+
+    
+
+} */
+
+/* .hey {
+    border: 5px solid black;
+    width: 300px;
+    height: 300px;
+    overflow: auto;/*visible, hidden 
+}*//*
+.hey::-webkit-scrollbar {
+    background-color: #00fbd9;
+    width: 2px;
+  } */
+
+/* .yay {
+    border: 4px solid blue;
+    width: 400px;
+    width: 400px;
+    
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* margin: 50px auto; */
+/* }  */
+
+/* Advanced css selectors */
+
+/* #parent > .child {
+    height: 50px;
+    border: 1px solid blue;
+}
+
+#parent .child + .child {
+background-color:aquamarine;
+}
+
+#parent .child ~ .child {
+    background-color: black;
+} */
+
+/* introduction to pseudo selectors */
+
+/* .pseudo {
+    width: 300px;
+    height: 300px;
+    border: 10px solid black;
+    margin: 50px auto;
+    position: relative;
+    border-radius: 40px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/3/3c/Salto_del_Angel-Canaima-Venezuela08.JPG);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.pseudo::before {
+    content: ' ';
+    display: block;
+    border: 10px solid rgba(3, 0, 0, 0.663);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border-radius: 30px;
+    z-index: -1;
+    box-shadow: -10px 10px  10px greenyellow;
+    
+}
+.pseudo::after {
+    content: ' ';
+    display: block;
+    border: 10px solid rgba(247, 1, 136, 0.663);
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    z-index: -1;
+    box-shadow: 10px -10px  10px rgba(2, 123, 216, 0.881);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    position: relative;
+}
+
+a::before {
+    content: ' ';
+    width: 100%;
+    height: 15px;
+    background-color:rgba(2, 123, 216, 0.881);
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+    left: 0;
+
+
+}
+
+a:hover::before {
+    height: 4px;
+    
+    transition:ease-in-out;
+}
+
+
+
+#ps::first-letter {
+    font-size: 50px;
+    float: left;
+    margin-right: 15px;
+    margin-left: 10px;
+}
+#ps::first-line {
+    font-weight: bold ;
+}
+
+/* highlighting the text with selection */
+/* 
+::selection {
+    background-color: green;
+    color:rgba(216, 216, 214, 0.663);
+}
+
+#bu {
+    background-color:blanchedalmond;
+    display: inline-block;
+    padding: 5px 15px;
+    color: black;
+    text-decoration: none;
+    transition: background-color 0.5s,
+            color 1s, padding 2s;
+    border: 1px solid black;
+    font-size: 20px;
+}
+
+#bu:hover {
+    background-color: #000;
+    color:#fff;
+    padding: 10px 30px;
+}  */
+
+/* .grad {
+    background: rgb(0,0,0);
+    background: linear-gradient(136deg, rgba(0,0,0,0.8) 29%, rgba(34,195,36,0.8436624649859944) 73%, rgba(255,255,255,0.2638305322128851) 91%);/*(diraction, color1, color2);*/
+    /* width: 100%;
+    height: 700px;
+} */ 
+/* 
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(180deg,rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.8) 100%), url("https://upload.wikimedia.org/wikipedia/commons/3/3c/Salto_del_Angel-Canaima-Venezuela08.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    color: white;
+    font-size: 90px;
+    text-align: center;
+    padding-top: 300px;
+    font-family: 'Inconsolata', monospace;
+} */
+
+/* .reg {
+    width: 300px;
+    height: 300px;
+    border: 10px solid red;
+    margin: 50px auto; 
+
+    /* transform: translate(100px, 100px); */
+    /* transform: rotate(45deg); */
+    /* transform: scale(1.3); */
+    /* transform: skew(20deg, 20deg); */
+    /* transform: skewX(20deg); */
+
+/* } */
+body {
+    display: inline-block;
+    max-width: 300px;
+    max-height: 200px;
+    margin: 0;
+    padding: 0;
+}
+
+.anima {
+    width: 300px;
+    height: 300px;
+    border: 5px solid red;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: second 3s ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse;
+}
+
+@keyframes second {
+    0% {
+        top: 0;
+        left: 0;
+        background-color: blue;
+    }
+    25% {
+        top: 0;
+        left: 100%;
+        background-color: yellow;
+    }
+    50% {
+        top: 100%;
+        left: 100%;
+        background-color: green;
+    }
+        75% {
+        top: 100%;
+        left: 0;
+        background-color: red;
+    }
+    100% {
+        top: 0;
+        left: 0;
+        background-color:blueviolet
+    }
+}
+
+
+/* @keyframes slideme {
+    from {
+        top: 0;
+        left: 0;
+    }
+    to {
+        left: 500px;
+    }
+} */
